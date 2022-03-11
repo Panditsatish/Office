@@ -1,0 +1,440 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mob_kitchen"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:4:5-79
+15-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:4:22-76
+16
+17    <queries>
+17-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:5:5-26:15
+18
+19        <!-- If your app opens https URLs -->
+20        <intent>
+20-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:7:9-10:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:8:13-65
+21-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:8:21-62
+22
+23            <data android:scheme="https" />
+23-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:13-44
+23-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:19-41
+24        </intent>
+25        <!-- If your app makes calls -->
+26        <intent>
+26-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:12:9-15:18
+27            <action android:name="android.intent.action.DIAL" />
+27-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:13:13-65
+27-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:13:21-62
+28
+29            <data android:scheme="tel" />
+29-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:13-44
+29-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:19-41
+30        </intent>
+31        <!-- If your sends SMS messages -->
+32        <intent>
+32-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:17:9-20:18
+33            <action android:name="android.intent.action.SENDTO" />
+33-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:18:13-67
+33-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:18:21-64
+34
+35            <data android:scheme="smsto" />
+35-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:13-44
+35-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:19-41
+36        </intent>
+37        <!-- If your app sends emails -->
+38        <intent>
+38-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:22:9-25:18
+39            <action android:name="android.intent.action.SEND" />
+39-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:23:13-65
+39-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:23:21-62
+40
+41            <data android:mimeType="*/*" />
+41-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:9:13-44
+42        </intent>
+43    </queries>
+44
+45    <uses-permission android:name="android.permission.WAKE_LOCK" />
+45-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+45-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+46    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+46-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+46-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+47-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+48    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+48-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+48-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+49    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+49-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+49-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+50-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+50-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+51-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+52-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/61d00a6ddea8bd4794c5dc9dc3e39045/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+52-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/61d00a6ddea8bd4794c5dc9dc3e39045/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+53
+54    <application
+54-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:27:4-65:19
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.6.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:29:9-43
+58        android:label="mob_kitchen" >
+58-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:28:9-36
+59        <activity
+59-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:30:9-58:20
+60            android:name="com.mob_kitchen.MainActivity"
+60-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:31:13-41
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:34:13-163
+62            android:hardwareAccelerated="true"
+62-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:35:13-47
+63            android:launchMode="singleTop"
+63-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:32:13-43
+64            android:theme="@style/LaunchTheme"
+64-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:33:13-47
+65            android:windowSoftInputMode="adjustResize" >
+65-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:36:13-55
+66
+67            <!--
+68                 Specifies an Android theme to apply to this Activity as soon as
+69                 the Android process has started. This theme is visible to the user
+70                 while the Flutter UI initializes. After that, this theme continues
+71                 to determine the Window background behind the Flutter UI.
+72            -->
+73            <meta-data
+73-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:41:13-44:17
+74                android:name="io.flutter.embedding.android.NormalTheme"
+74-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:42:15-70
+75                android:resource="@style/NormalTheme" />
+75-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:43:15-52
+76            <!--
+77                 Displays an Android View that continues showing the launch screen
+78                 Drawable until Flutter paints its first frame, then this splash
+79                 screen fades out. A splash screen is useful to avoid any visual
+80                 gap between the end of Android's launch screen and the painting of
+81                 Flutter's first frame.
+82            -->
+83            <meta-data
+83-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:50:13-53:17
+84                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+84-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:51:15-79
+85                android:resource="@drawable/launch_background" />
+85-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:52:15-61
+86
+87            <intent-filter>
+87-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:54:13-57:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:55:17-68
+88-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:55:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:56:17-76
+90-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:56:27-74
+91            </intent-filter>
+92        </activity>
+93
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+98-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:62:9-64:33
+99            android:name="flutterEmbedding"
+99-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:63:13-44
+100            android:value="2" />
+100-->/Users/satishtiwari/StudioProjects/Mob's Kitchen/android/app/src/main/AndroidManifest.xml:64:13-30
+101
+102        <service
+102-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+103            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+103-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+104            android:exported="false"
+104-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+105            android:permission="android.permission.BIND_JOB_SERVICE" />
+105-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+106        <service
+106-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+107            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+107-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+108            android:exported="false" >
+108-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+109            <intent-filter>
+109-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+110                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+110-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+110-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+111            </intent-filter>
+112        </service>
+113
+114        <receiver
+114-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+115-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+116            android:exported="true"
+116-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+117            android:permission="com.google.android.c2dm.permission.SEND" >
+117-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+118            <intent-filter>
+118-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+119                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+119-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+119-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+120            </intent-filter>
+121        </receiver>
+122
+123        <service
+123-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+124            android:name="com.google.firebase.components.ComponentDiscoveryService"
+124-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:18-89
+125            android:directBootAware="true"
+125-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0545ceb3e3da5ba6b9955f3b479d24b8/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:10:13-37
+127            <meta-data
+127-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+128                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+128-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+130            <meta-data
+130-->[:firebase_core] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+131                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+131-->[:firebase_core] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[:firebase_core] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0545ceb3e3da5ba6b9955f3b479d24b8/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:11:13-13:85
+134                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+134-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0545ceb3e3da5ba6b9955f3b479d24b8/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:12:17-126
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0545ceb3e3da5ba6b9955f3b479d24b8/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:13:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/e1c3c5571be7a37753db03cf09c92098/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+137                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+137-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/e1c3c5571be7a37753db03cf09c92098/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/e1c3c5571be7a37753db03cf09c92098/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+140                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+140-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/fcf3dedd4fc82af37a255ab7fcfe8e6a/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+143                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+143-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/fcf3dedd4fc82af37a255ab7fcfe8e6a/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/fcf3dedd4fc82af37a255ab7fcfe8e6a/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+145            <meta-data
+145-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/15db350c888ecdd2238008c665db0348/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+146                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+146-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/15db350c888ecdd2238008c665db0348/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/15db350c888ecdd2238008c665db0348/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-installations:17.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/aad01dd36e934e3b2b8e0b0068a3b8bb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+149                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+149-->[com.google.firebase:firebase-installations:17.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/aad01dd36e934e3b2b8e0b0068a3b8bb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-installations:17.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/aad01dd36e934e3b2b8e0b0068a3b8bb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+151        </service>
+152
+153        <provider
+153-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+154            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+154-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+155            android:authorities="com.mob_kitchen.flutterfirebasemessaginginitprovider"
+155-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+156            android:exported="false"
+156-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+157            android:initOrder="99" />
+157-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+158
+159        <receiver
+159-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+160            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+160-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+161            android:exported="false" />
+161-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+162        <receiver
+162-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+163            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+163-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+164            android:exported="false" >
+164-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+165            <intent-filter>
+165-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+166-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+166-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+167                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+167-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+167-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+168                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+168-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+168-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+169                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+169-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+169-->[:flutter_local_notifications] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+170            </intent-filter>
+171        </receiver>
+172
+173        <activity
+173-->[:url_launcher_android] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+174            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+174-->[:url_launcher_android] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+175            android:exported="false"
+175-->[:url_launcher_android] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+176            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+176-->[:url_launcher_android] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+177
+178        <uses-library
+178-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+179            android:name="androidx.window.extensions"
+179-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+180            android:required="false" />
+180-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+181        <uses-library
+181-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+182            android:name="androidx.window.sidecar"
+182-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+183            android:required="false" />
+183-->[androidx.window:window:1.0.0-beta04] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/94b5450fb2a475b59256c4aa9011f7c6/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+184
+185        <receiver
+185-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+186            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+186-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+187            android:exported="true"
+187-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+188            android:permission="com.google.android.c2dm.permission.SEND" >
+188-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+189            <intent-filter>
+189-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+190                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+190-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+190-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+191            </intent-filter>
+192        </receiver>
+193        <!--
+194             FirebaseMessagingService performs security checks at runtime,
+195             but set to not exported to explicitly avoid allowing another app to call it.
+196        -->
+197        <service
+197-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+198            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+198-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+199            android:directBootAware="true"
+199-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+200            android:exported="false" >
+200-->[com.google.firebase:firebase-messaging:23.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/2c0962b8152ec6083289db19b4ad18dd/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+201            <intent-filter android:priority="-500" >
+201-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+202                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+202-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+202-->[:firebase_messaging] /Users/satishtiwari/StudioProjects/Mob's Kitchen/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+203            </intent-filter>
+204        </service>
+205        <service
+205-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+206            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+206-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+207            android:exported="false" >
+207-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+208            <meta-data
+208-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+209                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+209-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+210                android:value="cct" />
+210-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/846b82aff1d6ab57add8d8d6ac4e1cfd/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+211        </service>
+212
+213        <provider
+213-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+214            android:name="com.google.firebase.provider.FirebaseInitProvider"
+214-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+215            android:authorities="com.mob_kitchen.firebaseinitprovider"
+215-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+216            android:directBootAware="true"
+216-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+217            android:exported="false"
+217-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+218            android:initOrder="100" />
+218-->[com.google.firebase:firebase-common:20.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/eed6be46054f296cc81a62e81fdcac1a/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+219
+220        <receiver
+220-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+221            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+221-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+222            android:enabled="true"
+222-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+223            android:exported="false" >
+223-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+224        </receiver>
+225
+226        <service
+226-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+227            android:name="com.google.android.gms.measurement.AppMeasurementService"
+227-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+229            android:exported="false" />
+229-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+230        <service
+230-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+231            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+231-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+233            android:exported="false"
+233-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+234            android:permission="android.permission.BIND_JOB_SERVICE" />
+234-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/6fefe94141a5dbd05074008359516f48/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+235
+236        <meta-data
+236-->[com.google.android.gms:play-services-basement:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/b344768b9b697c3ff9bf32031c667211/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+237            android:name="com.google.android.gms.version"
+237-->[com.google.android.gms:play-services-basement:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/b344768b9b697c3ff9bf32031c667211/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+238            android:value="@integer/google_play_services_version" />
+238-->[com.google.android.gms:play-services-basement:18.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/b344768b9b697c3ff9bf32031c667211/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+239
+240        <service
+240-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+241            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+241-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+242            android:exported="false"
+242-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" >
+243-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+244        </service>
+245
+246        <receiver
+246-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+247-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+248            android:exported="false" />
+248-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/1e85980492db3f71364a0fb3989a2a81/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+249    </application>
+250
+251</manifest>

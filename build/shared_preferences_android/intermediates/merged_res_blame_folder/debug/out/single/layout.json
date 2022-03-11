@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/satishtiwari/StudioProjects/Mob's Kitchen/build/shared_preferences_android/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/satishtiwari/.gradle/caches/transforms-2/files-2.1/0eb3c3bf69776f10b11effa28f97921f/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    }
+]

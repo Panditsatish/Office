@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "462782869582",
+    "project_id": "hifivers-d8411",
+    "storage_bucket": "hifivers-d8411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462782869582:android:a65ddebf3d6d142369531f",
+        "android_client_info": {
+          "package_name": "com.app.hifives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462782869582-3l9bncdm8abq6mn34cs187ktqg64j8ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hifives",
+            "certificate_hash": "b3445c0573ce184304fd72d5fbfcb9443e491fd6"
+          }
+        },
+        {
+          "client_id": "462782869582-i3pmjlipf9cec47iuua30vghiic1pmu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hifives",
+            "certificate_hash": "d84b57511e4918fdc425a67a3f7cf1ab6a370ef4"
+          }
+        },
+        {
+          "client_id": "c",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUxXcMawR2mOyw5WcXFi75Rzo9Ci_Xiy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462782869582-ah0lb5dk5m8osdnru6u9jqvabo5124k0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462782869582-f3b25kiltdeqqlj8j4resl7d4udoq732.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.hifives"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
